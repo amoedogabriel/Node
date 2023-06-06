@@ -1,0 +1,1 @@
+CommonJS é um projeto com o objetivo de especificar um ecossistema para JavaScript do outro lado do navegador (no lado do servidor, por exemplo um server-side ou então para aplicações desktop nativas). O projeto foi iniciado por Kevin Dangoor em Janeiro de 2009 e foi inicialmente chamado de ServerJS.

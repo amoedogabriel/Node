@@ -1,0 +1,32 @@
+
+ <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="UTF-8">
+      <title>Gerador de Parágrafos</title>
+      <link rel="stylesheet" href="styles.css">
+      <script>
+        function gerarParagrafos() {
+          var quantidade = document.getElementById("quantidade").value;
+          var resultado = document.getElementById("resultado");
+  
+          // Limpa o resultado anterior
+          resultado.innerHTML = "";
+  
+          for (var i = 0; i < quantidade; i++) {
+            var paragrafo = document.createElement("p");
+            paragrafo.innerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ullamcorper pellentesque lectus vitae aliquam. Nullam tempus tincidunt tristique. Sed vel lacinia justo. Nunc eu magna ac dui mattis aliquet. Proin at orci sed sem aliquam gravida. Suspendisse eu luctus lacus. Vestibulum in cursus elit, ac laoreet eros. Fusce nec dolor non odio condimentum iaculis. Integer hendrerit arcu dolor, non rhoncus tortor commodo eu. Suspendisse vitae felis non lacus rhoncus cursus at ac metus. Suspendisse potenti. Quisque non mauris nec nisl interdum pellentesque. Quisque commodo libero eu lacinia sagittis.";
+  
+            resultado.appendChild(paragrafo);
+          }
+        }
+      </script>
+    </head>
+    <body>
+      <h1>Gerador de Parágrafos</h1>
+      <label for="quantidade">Quantidade:</label>
+      <input type="number" id="quantidade" min="1" max="10">
+      <button onclick="gerarParagrafos()">Gerar</button>
+      <div id="resultado"></div>
+    </body>
+</html>

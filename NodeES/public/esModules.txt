@@ -1,0 +1,1 @@
+ES Modules (também conhecido como ECMAScript Modules ou ESM) é um padrão do JavaScript para importar e exportar funcionalidades entre módulos. Foi introduzido na especificação ECMAScript 6 (também conhecido como ES6 ou ES2015) como uma forma mais moderna e robusta de modularizar o código JavaScript.

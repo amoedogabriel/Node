@@ -1,0 +1,1 @@
+O Node.js é um ambiente de tempo de execução (runtime) de código JavaScript do lado do servidor. Ele permite que você execute código JavaScript fora do navegador, no servidor, e seja capaz de construir aplicações web altamente escaláveis e eficientes.

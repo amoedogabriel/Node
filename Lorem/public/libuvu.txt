@@ -1,0 +1,1 @@
+O libuv é uma biblioteca multiplataforma de E/S assíncrona utilizada pelo Node.js para lidar com tarefas de I/O (entrada/saída) de forma eficiente e não bloqueante.
